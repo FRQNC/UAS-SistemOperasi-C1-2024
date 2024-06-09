@@ -81,6 +81,15 @@ public class FileManagementSystem {
         System.out.println("File or Folder not found: " + oldName);
     }
 
+    private static String getCurrentPath(Folder folder) {
+        StringBuilder path = new StringBuilder();
+        while (folder != null) {
+            path.insert(0, folder.name + "/");
+            folder = folder.parent;
+        }
+        return path.length() > 0 ? path.substring(0, path.length() - 1) : "/";
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         FileManagementSystem fms = new FileManagementSystem();
@@ -98,7 +107,8 @@ public class FileManagementSystem {
         System.out.println("exit - Exit the program");
 
         while (true) {
-            System.out.print(">> ");
+            String path = getCurrentPath(fms.currentFolder);
+            System.out.print(path + " >> ");
             command = scanner.nextLine();
             String[] commandParts = command.split(" ");
 
