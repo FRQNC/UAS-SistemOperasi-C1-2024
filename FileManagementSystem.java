@@ -129,7 +129,10 @@ public class FileManagementSystem {
                     break;
                 case "cd":
                     if (commandParts.length == 2) {
-                        fms.changeDirectory(commandParts[1]);
+                        String[] targetDir = commandParts[1].split("/");
+                        for (String dirName : targetDir) {
+                            fms.changeDirectory(dirName);
+                        }
                     } else {
                         System.out.println("Usage: cd <foldername> or cd ..");
                     }
