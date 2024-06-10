@@ -26,7 +26,7 @@ Aplikasi ini mengimplementasikan konsep-konsep dasar Pemrograman Berorientasi Ob
 
 Dokumentasi dapat diakses melalui tautan berikut ini:
 
-(https://docs.google.com/document/d/1FikjeXYatILnHbPVDuh987uqrbpHbjydCCknvjsllRs/edit?usp=sharing)
+[Dokumentasi File Management System](https://docs.google.com/document/d/1FikjeXYatILnHbPVDuh987uqrbpHbjydCCknvjsllRs/edit?usp=sharing)
 
 ## Authors - Github Profile
 
