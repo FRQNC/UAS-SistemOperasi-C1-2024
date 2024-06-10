@@ -26,10 +26,10 @@ Aplikasi ini mengimplementasikan konsep-konsep dasar Pemrograman Berorientasi Ob
 
 Dokumentasi dapat diakses melalui tautan berikut ini:
 
-(https://linktodocumentation)
+(https://docs.google.com/document/d/1FikjeXYatILnHbPVDuh987uqrbpHbjydCCknvjsllRs/edit?usp=sharing)
 
 ## Authors - Github Profile
 
 - [Muhamad Furqon Al-Haqqi](https://github.com/FRQNC)
-- [Tattha Maharany Yasmin Akbar]()
+- [Tattha Maharany Yasmin Akbar](https://github.com/tatxha)
 - [Themy Sabri Syuhada](https://github.com/ThemySabri)
